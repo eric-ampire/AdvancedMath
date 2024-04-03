@@ -11,6 +11,7 @@
 		CA8766512BBDA00600D084B5 /* AdvancedMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8766462BBDA00600D084B5 /* AdvancedMath.framework */; };
 		CA8766562BBDA00600D084B5 /* AdvancedMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8766552BBDA00600D084B5 /* AdvancedMathTests.swift */; };
 		CA8766572BBDA00600D084B5 /* AdvancedMath.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8766492BBDA00600D084B5 /* AdvancedMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA8766612BBDA03B00D084B5 /* AdvancedMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8766602BBDA03B00D084B5 /* AdvancedMath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		CA87664A2BBDA00600D084B5 /* AdvancedMath.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AdvancedMath.docc; sourceTree = "<group>"; };
 		CA8766502BBDA00600D084B5 /* AdvancedMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8766552BBDA00600D084B5 /* AdvancedMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedMathTests.swift; sourceTree = "<group>"; };
+		CA8766602BBDA03B00D084B5 /* AdvancedMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedMath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				CA8766492BBDA00600D084B5 /* AdvancedMath.h */,
 				CA87664A2BBDA00600D084B5 /* AdvancedMath.docc */,
+				CA8766602BBDA03B00D084B5 /* AdvancedMath.swift */,
 			);
 			path = AdvancedMath;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA87664B2BBDA00600D084B5 /* AdvancedMath.docc in Sources */,
+				CA8766612BBDA03B00D084B5 /* AdvancedMath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 		CA87665E2BBDA00600D084B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8RS37X2BMR;
@@ -423,6 +428,7 @@
 		CA87665F2BBDA00600D084B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8RS37X2BMR;
